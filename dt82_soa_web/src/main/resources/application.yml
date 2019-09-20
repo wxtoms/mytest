@@ -1,0 +1,9 @@
+# \u6CE8\u518C\u4E2D\u5FC3\u7684\u5730\u5740
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:11001/eureka
+spring:
+  application:
+    name: soa-customer

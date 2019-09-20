@@ -1,0 +1,25 @@
+server:
+  port: 8085
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///mybatisdb
+    username: root
+    password: 123456
+
+  application:
+    name: soa-server
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:11001/eureka
+
+
+mybatis:
+  type-aliases-package: com.qs.javabean
+  mapper-locations: classpath:dao/*Dao.xml
+
+

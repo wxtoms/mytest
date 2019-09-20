@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dt82_cloud01" />
+        <module name="dt82_soa_eureka" />
+        <module name="dt82_soa_service" />
+        <module name="dt82_soa_web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dt82_soa_eureka" options="-parameters" />
+      <module name="dt82_soa_service" options="-parameters" />
+      <module name="dt82_soa_web" options="-parameters" />
+    </option>
+  </component>
+</project>
